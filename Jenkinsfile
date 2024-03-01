@@ -50,7 +50,7 @@ pipeline {
             steps {
                 echo '开始下载代码'
                 sh 'pwd'
-                git 'https://github.com/xiaokaiCoding/2.29-.git'
+                 git credentialsId: 'f6c06727-0552-41e9-bb44-d97c3c07b182', url: 'https://github.com/xiaokaiCoding/2.29-.git'
             }
         }
     }
