@@ -1,6 +1,4 @@
 
-
-
 //例1：流水线外部定义变量承接返回值
 def test = input id: 'Test_input', message: 'Hello , What\'s your name', ok: 'Input finished.', parameters: [string(defaultValue: 'Mr Jenkins', description: 'Who should I say hello to?', name: 'PERSON')], submitter: 'alice,bob', submitterParameter: 'name'
 pipeline {
