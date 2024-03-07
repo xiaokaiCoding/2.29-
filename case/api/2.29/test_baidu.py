@@ -22,8 +22,9 @@ class TestBaidu:
         print("\nteardown_method……")
         
 if __name__ == '__main__':
-    # 生成json文件
-    pytest.main(['-s','-v','--alluredir=./report','--clean-alluredir'])
-    # 生成html文件
-    os.system('allure generate %s -o %s --clean'%("./report","./report/allure_html_path"))
-    os.system("allure serve .\report")
+    # # 生成json文件
+    # pytest.main(['-s','-v','--alluredir=./report','--clean-alluredir'])
+    # # 生成html文件
+    # os.system('allure generate %s -o %s --clean'%("./report","./report/allure_html_path"))
+    # os.system("allure serve .\report")
+    pass
